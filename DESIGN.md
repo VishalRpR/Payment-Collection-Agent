@@ -77,17 +77,6 @@ If the Gemini API is unavailable (no key, network error), the parser falls back 
 
 4. **No rate limiting:** The agent doesn't implement rate limiting on API calls. In production, I'd add exponential backoff and circuit breakers.
 
-## What I Would Improve With More Time
-
-1. **LLM-generated responses** — Use the LLM to generate more natural, contextual responses while maintaining safety guardrails (output filtering for PII).
-
-2. **Session persistence** — Store encrypted session state so conversations survive crashes.
-
-3. **Comprehensive input normalization** — Better handling of Unicode, transliteration (Hindi names), and regional date formats.
-
-4. **Observability** — Structured logging with correlation IDs, latency tracking, token usage metrics.
-
-5. **Multi-language support** — The API serves Indian users; supporting Hindi and other regional languages would improve UX.
 
 6. **Streaming responses** — For better perceived latency when the LLM is processing.
 
