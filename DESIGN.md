@@ -77,7 +77,6 @@ If the Gemini API is unavailable (no key, network error), the parser falls back 
 
 4. **No rate limiting:** The agent doesn't implement rate limiting on API calls. In production, I'd add exponential backoff and circuit breakers.
 
-
 6. **Streaming responses** — For better perceived latency when the LLM is processing.
 
 7. **Automated regression testing** — CI pipeline running the evaluation suite on every commit, with performance benchmarks.
