@@ -38,12 +38,6 @@ python main.py
 pytest tests/ -v
 ```
 
-### Run Evaluation
-
-```bash
-python eval/evaluator.py --mock
-```
-
 ## Architecture
 
 ```
