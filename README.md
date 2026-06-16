@@ -75,12 +75,9 @@ payment-agent/
 ├── DESIGN.md             # Architecture & design decisions
 ├── requirements.txt
 ├── tests/
-│   ├── test_validators.py    # Unit tests for validators
-│   └── test_agent_e2e.py     # End-to-end conversation tests
-└── eval/
-    ├── evaluator.py          # Automated evaluation runner
-    ├── test_scenarios.py     # 10 test scenarios
-    └── eval_results.md       # Generated results
+   ├── test_validators.py    # Unit tests for validators
+   └── test_agent_e2e.py     # End-to-end conversation tests
+
 ```
 
 ---
